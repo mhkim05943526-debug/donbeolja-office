@@ -347,12 +347,12 @@
         <div class="typing-glow" style="left:57%;top:64%;"></div>
         <div class="typing-glow" style="left:76%;top:64%;"></div>
         <div class="speech" id="sp-hq" style="left:51%;top:18%;">👑 전체 지휘 중</div>
-        <div class="speech" id="sp-content" style="left:38%;top:36%;">✍️ 쇼츠 업로드 중</div>
-        <div class="speech" id="sp-deal" style="left:57%;top:36%;">🎁 IT 체험단 스캔</div>
-        <div class="speech" id="sp-plan" style="left:76%;top:36%;">📊 전환율 분석 중</div>
-        <div class="speech" id="sp-finance" style="left:36%;top:55%;">💵 환율 마감 체크</div>
-        <div class="speech" id="sp-life" style="left:57%;top:55%;">⏰ 18:37 예약 대기</div>
-        <div class="speech" id="sp-hr" style="left:76%;top:55%;">⚙️ 타임박스 감시 중</div>
+        <div class="speech" id="sp-content" style="left:36%;top:35%;">✍️ 쇼츠 업로드 중</div>
+        <div class="speech" id="sp-deal" style="left:57%;top:33%;">🎁 IT 체험단 스캔</div>
+        <div class="speech" id="sp-plan" style="left:78%;top:35%;">📊 전환율 분석 중</div>
+        <div class="speech" id="sp-finance" style="left:34%;top:54%;">💵 환율 마감 체크</div>
+        <div class="speech" id="sp-life" style="left:57%;top:52%;">⏰ 18:37 예약 대기</div>
+        <div class="speech" id="sp-hr" style="left:79%;top:54%;">⚙️ 타임박스 감시 중</div>
 
         <button class="hotspot selected" style="left:51%;top:32%;" data-zone="hq"><span class="dot"></span>지휘실 · 돈 벌자</button>
         <button class="hotspot" style="left:19%;top:39%;" data-zone="meeting"><span class="dot"></span>대회의실</button>
@@ -551,13 +551,13 @@ document.getElementById("saveMemo").addEventListener("click", () => {
 renderZone("hq");
 
 const BUBBLES = {
-  "sp-hq": ["👑 전체 지휘 중", "📋 6팀 보고 취합", "🚀 12월 30만 목표"],
-  "sp-content": ["✍️ 쇼츠 4편 완료", "🔗 인포크 썸네일 교체", "🧵 스레드 반응 체크"],
-  "sp-deal": ["🎁 IT 단독 필터 가동", "🎧 소니 워크맨 대기", "💰 애드포스트 검수중"],
-  "sp-plan": ["📊 조회 3.18만 분석", "🔍 키워드 수요 체크", "💡 다음 카드 기획"],
-  "sp-finance": ["💵 원/달러 1,337.9원", "📈 QQQM 홀딩 체크", "💳 배분표 점검 중"],
-  "sp-life": ["⏰ 18:37 인스타 대기", "🏋️ 운동 루틴 체크", "📅 캘린더 동기화"],
-  "sp-hr": ["⚙️ 2-Strike 감시 중", "⏱️ 3분 타임박스 OK", "🔋 크레딧 절약 모드"]
+  "sp-hq": ["👑 총괄 지휘 중", "📋 보고 취합 중", "🚀 12월 30만!"],
+  "sp-content": ["✍️ 쇼츠 완료", "🔗 인포크 세팅", "🧵 스레드 체크"],
+  "sp-deal": ["🎁 IT 필터 ON", "🎧 워크맨 대기", "💰 애드포스트"],
+  "sp-plan": ["📊 3.18만 분석", "🔍 수요 체크", "💡 다음 기획"],
+  "sp-finance": ["💵 1,337.9원", "📈 QQQM 홀딩", "💳 배분 점검"],
+  "sp-life": ["⏰ 18:37 대기", "🏋️ 운동 루틴", "📅 일정 체크"],
+  "sp-hr": ["⚙️ 2-Strike", "⏱️ 3분 컷 OK", "🔋 한도 절약"]
 };
 const spKeys = Object.keys(BUBBLES);
 let tick = 0;
